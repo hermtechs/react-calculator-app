@@ -11,7 +11,7 @@ body{
     justify-content: center;
     grid-template-columns: repeat(4, 6rem);
     grid-template-rows: minmax(6rem,auto) repeat(5, 5rem);
-
+    
 }
 .span-2{
     grid-column: span 2;
@@ -19,4 +19,35 @@ body{
 .input-output-wrapper{
     background: rgba(0, 0, 0, 0.7);
     grid-column: 1/-1;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: flex-end;
+    justify-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    word-break:break-all;
+    text-align: right;
+
+}
+.input-output-wrapper .current-operand{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.input-output-wrapper .prev-operand{
+    color: rgb(212, 210, 210);
+    font-size: 1.5rem;
+}
+.grid-container button{
+    outline: none;
+    border: 1px solid #fff;
+    background: rgba(243, 236, 236, 0.9);
+    cursor: pointer;
+    font-weight:500;
+    font-size: 1.4rem;
+}
+.grid-container button:hover,
+.grid-container button:focus{
+    background: #ffff;
 }

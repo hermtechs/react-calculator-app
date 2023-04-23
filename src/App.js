@@ -5,8 +5,8 @@ function App(){
   return(
   <div className="grid-container">
    <div className="input-output-wrapper">
-    <div className="prev-operand"></div>
-    <div className="current-operand"></div>
+    <div className="prev-operand">123,1002686362823862386939393 * 123</div>
+    <div className="current-operand">1234</div>
     </div> 
 
     <button className="span-2">AC</button>
